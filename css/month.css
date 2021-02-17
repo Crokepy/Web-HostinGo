@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap%27");
+
+body {
+  background-image: url(../media/img/bg-pattern.svg);
+  font-family: Manrope;
+}
+
+.simpl {
+  font-size: 15pt;
+  text-align: center;
+}
+
+.container {
+  border-radius: 2%;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 25%;
+  background-color: white;
+}
+
+.page-views {
+  opacity: 0.5;
+  text-align: center;
+}
+
+.range {
+  width: 50%;
+  height: 32%;
+  margin-left: 65px;
+}
+
+.pre {
+  opacity: 0.7;
+  text-align: center;
+}
+
+.one-check,
+.two-check,
+.three-check {
+  display: flex;
+}
+
+.check-one-text,
+.check-two-text,
+.check-three-text {
+  margin-left: 10px;
+}
+
+.checks {
+  margin-left: 55px;
+  margin-top: 17px;
+  display: flex;
+  width: 20px;
+  height: 15px;
+}
+
+.start {
+  border: none;
+  margin-bottom: 30px;
+  border-radius: 15%;
+  margin-left: 80px;
+  width: 40%;
+  background-color: hsl(227, 35%, 25%);
+  color: white;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .range {
+    width: 70%;
+    height: 50%;
+    margin-left: 15%;
+  }
+  .container {
+    margin-top: 10em;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 44%;
+  }
+  .page-views {
+    font-size: 20pt;
+  }
+  .pre {
+    font-size: 30pt;
+  }
+  .checks {
+    margin-left: 32%;
+  }
+  .check-one-text,
+  .check-two-text,
+  .check-three-text {
+    margin-left: 10px;
+    font-size: 15pt;
+  }
+}
