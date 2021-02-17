@@ -10,11 +10,11 @@ body {
   text-align: center;
 }
 
-.info-div-a,
 .info-div-m {
   border-bottom: black;
   border-radius: 8%;
   background-color: white;
+  margin-top: 30%;
   margin: 12%;
   height: 25vh;
 }
